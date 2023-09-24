@@ -83,26 +83,24 @@ const Resume = () => {
                   August 2022 - November 2022
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
-                  Kami memahami konsep Design Thinking dan Project Management
-                  serta menerapkan langkah-langkah seperti Discovery, Design,
-                  Delivery, dan Deduction dalam tugas kelompok. Selain itu, kami
-                  juga akan menguasai HTML dan CSS untuk menciptakan tata letak,
-                  header, footer, serta halaman web modern yang responsif dengan
-                  flexbox. Kami akan berkolaborasi dalam pengembangan web
-                  menggunakan GitHub, dan memahami JavaScript dengan baik,
-                  termasuk penggunaan string, integer, variabel, konstanta,
-                  pernyataan kondisional, array, objek, fungsi, kelas, dan
-                  metode array. Kami juga akan mampu membuat aplikasi kalkulator
-                  berbasis web. Selain itu, kami akan mempelajari SQL untuk
-                  mengambil, mengolah data, dan menggunakan subkueri, serta
-                  menyelesaikan latihan analisis data e-commerce dengan SQL.
-                  Penggunaan Node.js juga akan menjadi bagian dari pembelajaran
-                  kami untuk mengelola database, mengimplementasikan fitur Hapus
-                  dan Edit, serta menyediakan fungsionalitas login dan
-                  pendaftaran akun pengguna. Terakhir, kami telah menyelesaikan
-                  Uji Sertifikasi Kompetensi PENGEMBANG WEB PRATAMA (JUNIOR WEB
-                  DEVELOPER) dengan nomor 020403 sebagai bukti kemampuan kami
-                  dalam bidang ini.
+                  I understand the concepts of Design Thinking and Project
+                  Management and apply steps such as Discovery, Design,
+                  Delivery, and Deduction in group assignments. In addition, I
+                  will also master HTML and CSS to create layouts, headers,
+                  footers, as well as modern responsive web pages with flexbox.
+                  I will collaborate in web development using GitHub, and
+                  understand JavaScript well, including the use of strings,
+                  integers, variables, constants, conditional statements,
+                  arrays, objects, functions, classes, and array methods. I will
+                  also be able to create a web-based calculator application. In
+                  addition, I will learn SQL to retrieve, process data, and use
+                  subqueries, and complete e-commerce data analysis exercises
+                  with SQL. The use of Node.js will also be part of my learning
+                  to manage databases, implement Delete and Edit features, and
+                  provide user account login and registration functionality.
+                  Lastly, I have completed the JUNIOR WEB DEVELOPER Competency
+                  Certification Test with number 020403 to prove my proficiency
+                  in this field.
                 </p>
               </div>
             </div>
