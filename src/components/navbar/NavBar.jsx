@@ -14,7 +14,7 @@ const navItems = [
   },
   {
     id: 2,
-    name: "works",
+    name: "projects",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const navItems = [
   },
 ];
 
-const NavBar = ({ toggleDarkMode, darkMode }) => {
+const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -60,9 +60,9 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
           <Link
             onClick={() => window.scrollTo(0, 0)}
             to="/"
-            className="text-3xl font-bold sm:text-3xl"
+            className="text-3xl font-bold sm:text-2xl"
           >
-            John Doe.
+            Muhammad Ilhan
           </Link>
         </div>
         <div
@@ -105,12 +105,12 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
                 </a>
               </li>
             ))}
-            <a
-              href=""
+            <Link
+              to="https://www.linkedin.com/in/m-ilhan-maghriby-431328253/"
               className="bg-black text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-yellow-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
             >
               HIRE ME
-            </a>
+            </Link>
           </ul>
         </div>
       </nav>

@@ -6,10 +6,10 @@ import {
 } from "react-icons/ai";
 import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
-import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/Resume.pdf";
-
+import { Link } from "react-router-dom";
+import photo from "../../assets/photo.png";
 
 const Hero = () => {
   return (
@@ -21,17 +21,11 @@ const Hero = () => {
               data-aos="fade-up"
               className=" text-5xl font-bold sm:text-[2rem]"
             >
-              Hello, I'm John  Doe
+              Hello, I'm M.Ilhan Maghriby
             </h2>
             <TypeAnimation
               data-aos="fade-up"
-              sequence={[
-                "Web Developer",
-                2000,
-                "Freelancer",
-                2000,
-                "",
-              ]}
+              sequence={["Front End Developer", 2000, "Web Developer", 2000]}
               speed={30}
               wrapper="h2"
               repeat={Infinity}
@@ -41,25 +35,25 @@ const Hero = () => {
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              Lorem ipsum dolor sit amet consectetur
+              Islamic economics students at Syiah Kuala University
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
-            <a
-              href=""
+            <Link
+              to="https://www.linkedin.com/in/m-ilhan-maghriby-431328253/"
               className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
             >
               <span> Hire Me</span>
-            </a>
-            <a
-              href={resumePDF}
+            </Link>
+            <Link
+              to={resumePDF}
               className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
               download
             >
               <div className="flex items-center gap-1">
                 Resume <FiDownload />
               </div>
-            </a>
+            </Link>
           </div>
           <div className="icons flex mt-5">
             <ul
@@ -68,34 +62,29 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="">
-                  {" "}
-                  <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
-                </a>
+                <Link to="https://github.com/ilhanmaghriby/">
+                  <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />
+                </Link>
               </li>
               <li>
-                <a href="">
-                  {" "}
-                  <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
-                </a>
+                <Link to="https://www.linkedin.com/in/m-ilhan-maghriby-431328253/">
+                  <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />
+                </Link>
               </li>
               <li>
-                <a href="">
-                  {" "}
-                  <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
-                </a>
+                <Link to="https://www.instagram.com/ilhanmaghribyy/">
+                  <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />
+                </Link>
               </li>
               <li>
-                <a href="">
-                  {" "}
-                  <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
-                </a>
+                <Link to="https://www.facebook.com/ilhan.magriby/">
+                  <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />
+                </Link>
               </li>
               <li>
-                <a href="">
-                  {" "}
-                  <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
-                </a>
+                <Link to="https://twitter.com/milhanmaghriby">
+                  <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />
+                </Link>
               </li>
             </ul>
           </div>
@@ -103,24 +92,12 @@ const Hero = () => {
         <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
           <div className="relative h-[88%] w-fit flex items-center sm:items-end">
             <img
-            data-aos="fade-up"
-              className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src='https://i.postimg.cc/pTn61Gr1/Untitled-design222-modified.png'
+              data-aos="fade-up"
+              className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0 rounded-lg"
+              src={photo}
               // src={mine}
               alt="mine"
             />
-            <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
-              <div data-aos="zoom-in" data-aos-duration="1000"  className=" relative cursor-pointer">
-                <img
-                  className=" w-[135px] md:w-[90px] circle-text"
-                  src="https://ik.imagekit.io/imgkitt/tr:w-400/Full_Stack_Developer2.png?updatedAt=1683134009107"
-                  alt=""
-                />
-                <FaPlay
-                  className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
-                />
-              </div>
-            </div>
           </div>
         </div>
       </div>

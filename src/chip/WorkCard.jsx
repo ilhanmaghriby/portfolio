@@ -6,7 +6,7 @@ import { AiOutlineGithub } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const WorkCard = () => {
-  const reversedData = [...data].reverse();
+  const reversedData = [...data];
 
   return (
     <>
@@ -25,11 +25,10 @@ const WorkCard = () => {
                   className=" object-fit w-full h-full hover:scale-125 transition duration-500 cursor-pointer"
                 />
               </div>
-
               <div
                 className={` popup w-full  h-[280px] shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] p-4`}
               >
-                <p className=" text-gray-900 text-base leading-[1.4] text-justify w-[90%]">
+                <p className=" text-gray-900 text-base leading-[1.4] text-justify w-[100%]">
                   {data.desc}
                 </p>
                 <div className=" flex items-center justify-center gap-4">
@@ -45,7 +44,7 @@ const WorkCard = () => {
                   <Link
                     to={data.git}
                     target="_blank"
-                    className="  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
+                    className="mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
                   >
                     <AiOutlineGithub className="  text-black bg-white rounded-full border  w-[35px] h-[35px] p-2" />
                     <p className=" text-black">Code</p>
