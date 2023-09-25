@@ -22,6 +22,10 @@ const navItems = [
   },
   {
     id: 4,
+    name: "certificate",
+  },
+  {
+    id: 5,
     name: "contact",
   },
 ];
