@@ -7,11 +7,13 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiReact,
+  SiNodedotjs,
+  SiNextdotjs,
+  SiMysql,
 } from "react-icons/si";
-import { SiNextdotjs } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 
-const Skills = ({ darkMode }) => {
+const Skills = () => {
   return (
     <div id="skills">
       <div className=" container m-auto  mt-16">
@@ -53,13 +55,19 @@ const Skills = ({ darkMode }) => {
                 <ProgressBar
                   logo={<SiTypescript />}
                   name={"TypeScript"}
-                  value={40}
+                  value={60}
                 />
                 <ProgressBar
                   logo={<SiNextdotjs />}
                   name={"Next Js"}
                   value={0}
                 />
+                <ProgressBar
+                  logo={<SiNodedotjs />}
+                  name={"Node Js"}
+                  value={20}
+                />
+                <ProgressBar logo={<SiMysql />} name={"MySQL"} value={30} />
               </div>
             </div>
           </div>

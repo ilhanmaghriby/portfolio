@@ -1,5 +1,4 @@
 import React from "react";
-import WorkCard from "../../chip/WorkCard";
 import CertificateCard from "../../chip/CertificateCard";
 
 const Certificate = () => {
@@ -18,8 +17,8 @@ const Certificate = () => {
         </p>
       </div>
       {/* card */}
-      <div className="card-wrapper mx-auto w-[100%] sm:w-fit mt-5">
-        <div className="card-box grid grid-cols-3 space-y-5 space-x-5 w-full md:grid-cols-2 sm:gap-8 sm:grid-cols-1 sm:space-y-0 ">
+      <div className="card-wrapper mx-auto w-[100%] sm:w-fit mt-5 ">
+        <div className="card-box grid grid-cols-3  w-full md:grid-cols-2 sm:gap-8 sm:grid-cols-1 ">
           <CertificateCard />
         </div>
       </div>
