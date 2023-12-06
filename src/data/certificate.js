@@ -1,6 +1,6 @@
-import sertif1 from "../assets/sertif1.jpg";
-import sertif2 from "../assets/sertif2.jpg";
-import sertif3 from "../assets/sertif3.png";
+import sertif1 from "../assets/sertif1.webp";
+import sertif2 from "../assets/sertif2.webp";
+import sertif3 from "../assets/sertif3.webp";
 
 export const certificate = [
   {

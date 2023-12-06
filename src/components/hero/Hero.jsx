@@ -9,7 +9,7 @@ import { FiDownload } from "react-icons/fi";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/Resume.pdf";
 import { Link } from "react-router-dom";
-import photo from "../../assets/photo.png";
+import photo from "../../assets/photo.webp";
 
 const Hero = () => {
   return (

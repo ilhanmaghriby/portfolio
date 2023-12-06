@@ -1,7 +1,7 @@
-import Movie from "../assets/Movie.png";
-import Quran from "../assets/Quran.png";
-import WorkPro from "../assets/WorkPro.png";
-import Resto from "../assets/Resto.png";
+import Movie from "../assets/Movie.webp";
+import Quran from "../assets/Quran.webp";
+import WorkPro from "../assets/WorkPro.webp";
+import Resto from "../assets/Resto.webp";
 
 export const data = [
   {
