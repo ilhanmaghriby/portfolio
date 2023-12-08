@@ -60,7 +60,7 @@ const Skills = () => {
                 <ProgressBar
                   logo={<SiNextdotjs />}
                   name={"Next Js"}
-                  value={50}
+                  value={10}
                 />
                 <ProgressBar
                   logo={<SiNodedotjs />}
