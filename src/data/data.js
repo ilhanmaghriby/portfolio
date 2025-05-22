@@ -2,6 +2,8 @@ import Movie from "../assets/Movie.webp";
 import Quran from "../assets/Quran.webp";
 import WorkPro from "../assets/WorkPro.webp";
 import Resto from "../assets/Resto.webp";
+import CodeOrbit from "../assets/codeorbit.webp";
+import CountryInsight from "../assets/country.webp";
 
 export const data = [
   {
@@ -35,5 +37,20 @@ export const data = [
     desc: "Qur'an Hann is a website that allows users to easily access Surahs of the Qur'an. The website has been equipped with Surah translations and has a responsive design, so users can comfortably browse and understand the holy messages of the Qur'an.",
     link: "https://quran-hann.netlify.app/",
     git: "https://github.com/ilhanmaghriby/quran-hann",
+  },
+  {
+    id: 5,
+    img: CodeOrbit,
+    title: "CodeOrbit",
+    desc: "CodeOrbit's landing page is a responsive website built with HTML, CSS, Tailwind CSS, React.js, and TypeScript, featuring optimized performance, intuitive navigation, and conversion-focused design.",
+    link: "https://codeorbit.site/",
+    git: "https://github.com/ilhanmaghriby/freelance-web",
+  },
+  {
+    id: 6,
+    img: CountryInsight,
+    title: "Country Insight",
+    desc: "Country Insight is a full-stack web app that provides AI-powered country insights with a responsive UI, GraphQL API, and Google OAuth authentication. Built with React.js and Express.js, it integrates OpenAI’s LLaMA model for AI interactions. The source code is available on GitHub.",
+    git: "https://github.com/ilhanmaghriby/country-insight",
   },
 ];

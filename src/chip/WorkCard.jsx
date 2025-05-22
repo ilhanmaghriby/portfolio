@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import { data } from "../data/data";
 import { RxExternalLink } from "react-icons/rx";
@@ -18,41 +18,40 @@ const WorkCard = () => {
             className="flex flex-col justify-center items-center gap-4"
           >
             <POPUP className="img-content relative">
-              <div className="h-[280px] w-[380px] md:h-[260px] md:w-[92%] hover:scale-125 transition duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] sm:bg-cover mx-auto ">
+              <div className="h-[280px] w-[380px] md:h-[260px] md:w-[92%] hover:scale-125 transition duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] sm:bg-cover mx-auto">
                 <img
                   src={data.img}
                   alt={data.title}
-                  className=" object-cover w-full h-full hover:scale-125 transition duration-500 cursor-pointer"
+                  className="object-cover w-full h-full hover:scale-125 transition duration-500 cursor-pointer"
                 />
               </div>
-              <div
-                className={` popup w-full  h-[280px] shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] p-4`}
-              >
-                <p className=" text-gray-900 text-base leading-[1.4] text-justify w-[100%]">
+              <div className="popup w-full h-[280px] shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] p-4">
+                <p className="text-gray-900 text-base leading-[1.4] text-justify w-full">
                   {data.desc}
                 </p>
-                <div className=" flex items-center justify-center gap-4">
-                  <Link
-                    to={data.link}
-                    target="_blank"
-                    className="  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
-                  >
-                    <RxExternalLink className=" text-black bg-white rounded-full border  w-[35px] h-[35px] p-2" />
-                    <p className=" text-black">Demo</p>
-                  </Link>
-                  <br className="w-[2px] bg-white" />
+                <div className="flex items-center justify-center gap-4">
+                  {data.link && (
+                    <Link
+                      to={data.link}
+                      target="_blank"
+                      className="mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
+                    >
+                      <RxExternalLink className="text-black bg-white rounded-full border w-[35px] h-[35px] p-2" />
+                      <p className="text-black">Demo</p>
+                    </Link>
+                  )}
                   <Link
                     to={data.git}
                     target="_blank"
                     className="mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
                   >
-                    <AiOutlineGithub className="  text-black bg-white rounded-full border  w-[35px] h-[35px] p-2" />
-                    <p className=" text-black">Code</p>
+                    <AiOutlineGithub className="text-black bg-white rounded-full border w-[35px] h-[35px] p-2" />
+                    <p className="text-black">Code</p>
                   </Link>
                 </div>
               </div>
             </POPUP>
-            <p className="text-gray-800 text-xl font-medium sm:text-lg mb-8  sm:mb-2">
+            <p className="text-gray-800 text-xl font-medium sm:text-lg mb-8 sm:mb-2">
               {data.title}
             </p>
           </div>
@@ -86,9 +85,6 @@ const POPUP = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  }
-  .icon {
-    color: #fff !important;
   }
   &:hover .popup {
     opacity: 1;

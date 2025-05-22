@@ -25,44 +25,7 @@ const Resume = () => {
             <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
               Experience
             </legend>
-            <div className=" relative">
-              {/* design */}
-              {/* <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
-                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
-                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
-                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
-              </div> */}
-              {/* design */}
-              <div className=" flex flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
-                <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  No Experience
-                </h1>
-                {/* <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  Company Name
-                </span>
-                <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  June 2023 - Present
-                </span>
-                <p className=" text-[.9rem] text-justify break-words text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi nihil aut quae obcaecati alias placeat totam aperiam
-                  pariatur quam? Accusantium minima aperiam error obcaecati
-                  autem doloribus deserunt qui, laborum incidunt amet, numquam
-                  eos cum tempora. Debitis, esse quae corporis deserunt officia
-                  quos in a, quaerat vero odio vitae.
-                </p> */}
-              </div>
-            </div>
-          </fieldset>
-        </div>
-        <div className="right flex-1 flex items-center justify-center">
-          <fieldset
-            data-aos="zoom-in"
-            className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
-          >
-            <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
-              Education
-            </legend>
+
             <div className=" relative">
               {/* design */}
               <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
@@ -71,18 +34,87 @@ const Resume = () => {
                 <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
               </div>
               {/* design */}
-              <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+              <div className=" flex  flex-col gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl ">
+                  Freelance Web Developer
+                </h1>
+                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                  Freelancer
+                </span>
+                <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
+                  June 2023 - Present
+                </span>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  I develop and manage website projects for various clients
+                  using modern technologies. In the process, I design and build
+                  service-based websites using React.js, TypeScript, and
+                  Tailwind CSS, ensuring responsive layouts and optimal
+                  performance. I also collaborate with clients to understand
+                  their business needs and translate them into effective digital
+                  solutions. Additionally, I implement REST API and GraphQL to
+                  ensure efficient data communication between the frontend and
+                  backend. For user authentication and database management, I
+                  utilize Supabase and Firebase. I conduct testing and debugging
+                  to ensure system reliability and quality. Moreover, I provide
+                  maintenance and feature enhancements based on user feedback.
+                </p>
+              </div>
+            </div>
+
+            <div className=" relative">
+              {/* design */}
+              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
+                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
+                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+              </div>
+              {/* design */}
+              <div className=" flex flex-col mt-5 gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
+                <h1 className="text-[1.4rem] font-semibold sm:text-xl ">
+                  Frontend Engineer
+                </h1>
+                <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
+                  PKS Digital School
+                </span>
+                <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
+                  Mei 2023 - June 2023
+                </span>
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
+                  During the 2-month bootcamp, I have gained the knowledge and
+                  skills to become a professional frontend engineer. I have
+                  learned the basics of programming, Git and Gitlab, HTML, CSS,
+                  JavaScript, and various frameworks and libraries such as React
+                  JS and Tailwind CSS. Learned components & props, state &
+                  components lifecycle, lists & forms, hooks, REST API with
+                  axios, context, react router, UI templates (UI Design
+                  Framework), authentication, and deployment for development. As
+                  well as completing difficult level final projects. This
+                  includes debugging problems, diagnosing root causes, and
+                  identifying solutions.
+                </p>
+              </div>
+            </div>
+
+            <div className=" relative">
+              {/* design */}
+              <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
+                <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+                <div className="line w-[230px] bg-gray-300 h-[2px] sm:w-[250px]"></div>
+                <div className="c2 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
+              </div>
+              {/* design */}
+              <div className=" flex flex-col mt-5 gap-1 sm:gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
                   Program Merdeka Belajar Kampus Merdeka (MBKM) Universitas
                   Syiah Kuala Unggul
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  Universitas Syiah Kuala - Progate
+                  Syiah Kuala University - Progate
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
                   August 2022 - November 2022
                 </span>
-                <p className=" text-[.9rem] text-justify text-gray-500">
+                <p className=" text-[.9rem] text-justify break-words text-gray-500">
                   I understand the concepts of Design Thinking and Project
                   Management and apply steps such as Discovery, Design,
                   Delivery, and Deduction in group assignments. In addition, I
@@ -104,7 +136,17 @@ const Resume = () => {
                 </p>
               </div>
             </div>
-            <div className=" relative mt-5">
+          </fieldset>
+        </div>
+        <div className="right flex-1 flex ">
+          <fieldset
+            data-aos="zoom-in"
+            className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
+          >
+            <legend className=" w-auto ml-[50%] translate-x-[-50%] border-2 border-gray-200 rounded-3xl py-1 px-8 font-semibold text-xl text-yellow-500">
+              Education
+            </legend>
+            <div className=" relative">
               {/* design */}
               <div className="design flex absolute left-[-150px] top-1/2 items-center rotate-[90deg] sm:left-[-160px] ">
                 <div className="c1 w-[12px] h-[12px] rounded-full bg-white border-2 border-yellow-500"></div>
@@ -114,26 +156,25 @@ const Resume = () => {
               {/* design */}
               <div className=" flex flex-col gap-1 border-2 border-yellow-400 shadow-[0px_0px_16px_1px_rgba(0,0,0,0.1)] p-3 rounded-lg">
                 <h1 className="text-[1.4rem] font-semibold sm:text-xl">
-                  Frontend Engineer
+                  Bachelor of Economics
                 </h1>
                 <span className=" text-[.9rem] font-semibold text-gray-500 sm:text-base">
-                  PKS Digital School
+                  Syiah Kuala University
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  Mei - 2023 - June 2023
+                  Sept 2020 - Mei 2024
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
-                  During the 2-month bootcamp, I have gained the knowledge and
-                  skills to become a professional frontend engineer. I have
-                  learned the basics of programming, Git and Gitlab, HTML, CSS,
-                  JavaScript, and various frameworks and libraries such as React
-                  JS and Tailwind CSS. Learned components & props, state &
-                  components lifecycle, lists & forms, hooks, REST API with
-                  axios, context, react router, UI templates (UI Design
-                  Framework), authentication, and deployment for development. As
-                  well as completing difficult level final projects. This
-                  includes debugging problems, diagnosing root causes, and
-                  identifying solutions.
+                  Islamic Economics graduate specializing in Islamic Marketing
+                  Management and Islamic Business Development, with a
+                  concentration in Islamic Business Management. During my
+                  studies, I wrote a thesis titled "Pengaruh Kualitas Pelayanan,
+                  Kualitas Produk, Harga, Dan Religiusitas Terhadap Kepuasan
+                  Pelanggan Pada Self Order Kiosk Mcdonald’s Di Kota Banda Aceh"
+                  which explores the impact of various factors on customer
+                  satisfaction at McDonald's self-order kiosks in Banda Aceh
+                  City. I have a deep understanding of the principles of Islamic
+                  economics, as well as their application in modern business.
                 </p>
               </div>
             </div>

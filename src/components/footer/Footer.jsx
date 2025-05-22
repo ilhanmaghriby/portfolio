@@ -23,7 +23,7 @@ const Footer = () => {
           <Link
             data-aos="fade-up"
             data-aos-duration="1200"
-            href=""
+            to="https://www.linkedin.com/in/m-ilhan-maghriby-431328253/"
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >
             <IoLogoLinkedin className=" text-black text-3xl hover:scale-125 cursor-pointer" />
