@@ -11,6 +11,7 @@ import {
   SiNextdotjs,
   SiMysql,
   SiExpress,
+  SiMongodb,
 } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 
@@ -45,7 +46,7 @@ const Skills = () => {
                 <ProgressBar
                   logo={<SiJavascript />}
                   name={"Javascript"}
-                  value={80}
+                  value={90}
                 />
                 <ProgressBar
                   logo={<SiTailwindcss />}
@@ -66,14 +67,15 @@ const Skills = () => {
                 <ProgressBar
                   logo={<SiNodedotjs />}
                   name={"Node Js"}
-                  value={40}
+                  value={85}
                 />
                 <ProgressBar
                   logo={<SiExpress />}
                   name={"Express Js"}
-                  value={45}
+                  value={75}
                 />
-                <ProgressBar logo={<SiMysql />} name={"MySQL"} value={30} />
+                <ProgressBar logo={<SiMongodb />} name={"MongoDB"} value={80} />
+                <ProgressBar logo={<SiMysql />} name={"MySQL"} value={50} />
               </div>
             </div>
           </div>
@@ -89,10 +91,10 @@ const Skills = () => {
               />
 
               <SkillBox
-                logo={<SiTypescript />}
+                logo={<SiNodedotjs />}
                 black={"white"}
                 white={"black"}
-                skill={"TypeScript"}
+                skill={"Node Js"}
               />
             </div>
             <div className="last2 flex flex-col gap-10">
@@ -103,10 +105,10 @@ const Skills = () => {
                 skill={"React Js"}
               />
               <SkillBox
-                logo={<SiNextdotjs />}
+                logo={<SiExpress />}
                 black={"black"}
                 white={"white"}
-                skill={"Next Js"}
+                skill={"Express Js"}
               />
             </div>
           </div>

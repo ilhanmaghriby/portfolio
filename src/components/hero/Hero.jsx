@@ -26,9 +26,9 @@ const Hero = () => {
             <TypeAnimation
               data-aos="fade-up"
               sequence={[
-                "Front End Web Developer",
+                "Full Stack Web Developer",
                 2000,
-                "Web Developer",
+                "Freelance MERN Stack Developer",
                 2000,
               ]}
               speed={30}
