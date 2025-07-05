@@ -53,7 +53,7 @@ const Skills = () => {
                   name={"Tailwind CSS"}
                   value={90}
                 />
-                <ProgressBar logo={<FaReact />} name={"React Js"} value={80} />
+                <ProgressBar logo={<FaReact />} name={"React Js"} value={85} />
                 <ProgressBar
                   logo={<SiTypescript />}
                   name={"TypeScript"}
@@ -74,7 +74,7 @@ const Skills = () => {
                   name={"Express Js"}
                   value={75}
                 />
-                <ProgressBar logo={<SiMongodb />} name={"MongoDB"} value={80} />
+                <ProgressBar logo={<SiMongodb />} name={"MongoDB"} value={90} />
                 <ProgressBar logo={<SiMysql />} name={"MySQL"} value={50} />
               </div>
             </div>
