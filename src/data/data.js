@@ -5,6 +5,7 @@ import Resto from "../assets/Resto.webp";
 import CodeOrbit from "../assets/codeorbit.webp";
 import CountryInsight from "../assets/country.webp";
 import Report from "../assets/report.webp";
+import SyncAI from "../assets/SyncAI.webp";
 
 export const data = [
   {
@@ -57,7 +58,15 @@ export const data = [
   {
     id: 7,
     img: Report,
-    title: "BPBD Pidie Jaya Web Report",
+    title: "SIAP Pidie Jaya",
     desc: "Built a full-stack web app for BPBD Pidie Jaya to manage location-based disaster damage reports with image uploads and map visualization using Leaflet. Features include role-based login, admin report verification, public map view with Excel export, and full account management. Tech stack: React.js, Node.js (Express), MongoDB, Tailwind CSS, Leaflet.js, ExcelJS.",
+  },
+  {
+    id: 8,
+    img: SyncAI,
+    title: "SyncAI",
+    desc: "SyncAI is a chat-based web app I built using the free Gemini API. It allows users to interact directly with AI through a simple and responsive interface.",
+    link: "https://sync-ai-six.vercel.app/",
+    git: "https://github.com/ilhanmaghriby/SyncAI",
   },
 ];
