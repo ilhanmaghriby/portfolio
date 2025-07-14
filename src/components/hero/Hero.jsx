@@ -7,7 +7,6 @@ import {
 import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../assets/Resume.pdf";
 import { Link } from "react-router-dom";
 import photo from "../../assets/photo.webp";
 
@@ -52,7 +51,7 @@ const Hero = () => {
             </Link>
             <a
               href="/Resume.pdf"
-              className="flex items-center gap-2 text-[1rem] bg-white border border-black px-7 py-2 sm:px-6 rounded-lg font-bold hover:text-yellow-500"
+              className="flex items-center gap-2 text-[1rem] bg-white border  px-7 py-2 sm:px-6 rounded-lg font-bold hover:text-yellow-500"
               download
             >
               <div className="flex items-center gap-1">
