@@ -6,6 +6,7 @@ import CodeOrbit from "../assets/codeorbit.webp";
 import CountryInsight from "../assets/country.webp";
 import Report from "../assets/report.webp";
 import SyncAI from "../assets/SyncAI.webp";
+import PDAM from "../assets/PDAM.webp";
 
 export const data = [
   {
@@ -42,6 +43,12 @@ export const data = [
   },
   {
     id: 5,
+    img: PDAM,
+    title: "PDAM Receipt",
+    desc: "This web application, built with React and Firebase, manages PDAM receipts by allowing users to add, edit, print (as images), and delete data through a responsive and user-friendly dashboard.",
+  },
+  {
+    id: 6,
     img: CodeOrbit,
     title: "CodeOrbit",
     desc: "CodeOrbit's landing page is a responsive website built with HTML, CSS, Tailwind CSS, React.js, and TypeScript, featuring optimized performance, intuitive navigation, and conversion-focused design.",
@@ -49,20 +56,20 @@ export const data = [
     git: "https://github.com/ilhanmaghriby/freelance-web",
   },
   {
-    id: 6,
+    id: 7,
     img: CountryInsight,
     title: "Country Insight",
     desc: "Country Insight is a full-stack web app that provides AI-powered country insights with a responsive UI, GraphQL API, and Google OAuth authentication. Built with React.js and Express.js, it integrates OpenAI’s LLaMA model for AI interactions. The source code is available on GitHub.",
     git: "https://github.com/ilhanmaghriby/country-insight",
   },
   {
-    id: 7,
+    id: 8,
     img: Report,
     title: "SIAP Pidie Jaya",
     desc: "Built a full-stack web app for BPBD Pidie Jaya to manage location-based disaster damage reports with image uploads and map visualization using Leaflet. Features include role-based login, admin report verification, public map view with Excel export, and full account management. Tech stack: React.js, Node.js (Express), MongoDB, Tailwind CSS, Leaflet.js, ExcelJS.",
   },
   {
-    id: 8,
+    id: 9,
     img: SyncAI,
     title: "SyncAI",
     desc: "SyncAI is a chat-based web app I built using the free Gemini API. It allows users to interact directly with AI through a simple and responsive interface.",
