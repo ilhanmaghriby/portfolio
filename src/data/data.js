@@ -7,6 +7,7 @@ import CountryInsight from "../assets/country.webp";
 import Report from "../assets/report.webp";
 import SyncAI from "../assets/SyncAI.webp";
 import PDAM from "../assets/PDAM.webp";
+import Pegawai from "../assets/pegawai.webp";
 
 export const data = [
   {
@@ -75,5 +76,12 @@ export const data = [
     desc: "SyncAI is a chat-based web app I built using the free Gemini API. It allows users to interact directly with AI through a simple and responsive interface.",
     link: "https://sync-ai-six.vercel.app/",
     git: "https://github.com/ilhanmaghriby/SyncAI",
+  },
+  {
+    id: 10,
+    img: Pegawai,
+    title: "Layanan Pegawai Terpadu",
+    desc: "Integrated Staff Services is a service booking platform for official needs, integrated with Outlook Calendar. Built with React, Firebase, Tailwind, and Framer Motion.",
+    link: "https://layanan-pegawai-terpadu.netlify.app/",
   },
 ];
